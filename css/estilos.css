@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 20px; 
+    border-bottom: 2px solid #ccc;  
+    height: 100px;
+
+}
+
+img {
+    width: 100px;
+    margin-right: 900px;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    
+}
+
+nav ul li a.active {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: #ddd;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+/* Galería de productos */
+.gallery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery picture img {
+        width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+
+footer .social img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer .address, footer .legal {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+/* Estilos para el formulario de presupuesto */
+.budget-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.budget-form h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.budget-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.budget-form input, .budget-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.budget-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.budget-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para la página de contacto */
+.contact-info {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-info .map img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-info .company-info {
+    margin-top: 20px;
+}
+
+.contact-info .company-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
