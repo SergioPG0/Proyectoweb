@@ -5,6 +5,31 @@
 }
 
 /* Estilos generales */
+#Logotipo {
+    max-width: 100px;
+    max-height: 100px
+}
+
+#Face {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#Twitt {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#Inst {
+    max-width: 100px;
+    max-height: 100px;
+}
+ 
+#Mapa {
+    height:600px;
+    width: 600px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
