@@ -6,22 +6,22 @@
 
 /* Estilos generales */
 #Logotipo {
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px
 }
 
 #Face {
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px;
 }
 
 #Twitt {
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px;
 }
 
 #Inst {
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px;
 }
  
