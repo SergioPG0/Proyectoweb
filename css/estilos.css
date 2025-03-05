@@ -7,22 +7,22 @@
 /* Estilos generales */
 #Logotipo {
     max-width: 100%;
-    max-height: 100px
+    max-height: auto;
 }
 
 #Face {
     max-width: 100%;
-    max-height: 100px;
+    max-height: auto;
 }
 
 #Twitt {
     max-width: 100%;
-    max-height: 100px;
+    max-height: auto;
 }
 
 #Inst {
     max-width: 100%;
-    max-height: 100px;
+    max-height: auto;
 }
  
 #Mapa {
