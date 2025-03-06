@@ -6,29 +6,29 @@
 
 /* Estilos generales */
 #Logotipo {
-    max-width: 100%;
-    max-height: auto;
+    height: 120px;
+    width: 120px;
 }
 
 #Face {
-    max-width: 100%;
-    max-height: auto;
+    height: 50px;
+    width: 50px;
 }
 
 #Twitt {
-    max-width: 100%;
-    max-height: auto;
+    height: 50px;
+    width: 50px;
 }
 
 #Inst {
-    max-width: 100%;
-    max-height: auto;
+    height: 50px;
+    width: 50px;
 }
+
  
 #Mapa {
     height:600px;
-    width: 600px;
-}
+    width: 800px;
 
 body {
     margin: 0;
