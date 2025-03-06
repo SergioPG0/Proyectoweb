@@ -5,6 +5,31 @@
 }
 
 /* Estilos generales */
+#Logotipo {
+    height: 120px;
+    width: 120px;
+}
+
+#Face {
+    height: 50px;
+    width: 50px;
+}
+
+#Twitt {
+    height: 50px;
+    width: 50px;
+}
+
+#Inst {
+    height: 50px;
+    width: 50px;
+}
+
+ 
+#Mapa {
+    height:600px;
+    width: 800px;
+}
 
 body {
     margin: 0;
